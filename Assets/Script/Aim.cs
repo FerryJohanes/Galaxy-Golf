@@ -15,6 +15,5 @@ public class Aim : MonoBehaviour
 
         var z = Mathf.Lerp(0, 360, timer);
         this.transform.rotation = Quaternion.Euler(0, 0, z);
-        Debug.Log(z);
     }
 }
